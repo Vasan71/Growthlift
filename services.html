@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - GrowthLift Digital Marketing Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+    <!-- Header with Sticky Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-blue-600">Growth<span class="text-green-500">Lift</span></a>
+            
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link active">Services</a>
+                <a href="about.html" class="nav-link">Why Us</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            
+            <!-- Mobile Navigation Toggle -->
+            <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link active">Services</a>
+                <a href="about.html" class="nav-link">Why Us</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Our Digital Marketing Services</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto">We offer comprehensive digital marketing solutions tailored to your business goals and target audience.</p>
+        </div>
+    </section>
+
+    <!-- SEO Service Section -->
+    <section id="seo" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <div class="service-icon-large bg-blue-100 text-blue-600 mb-6">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold mb-4">Search Engine Optimization (SEO)</h2>
+                    <p class="text-lg mb-6">Boost your website's visibility in search engine results and drive organic traffic with our data-driven SEO strategies.</p>
+                    
+                    <h3 class="text-xl font-semibold mb-3">What We Offer:</h3>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Technical SEO Audit:</strong> Comprehensive analysis of your website's technical health and search engine friendliness.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Keyword Research & Strategy:</strong> Identifying high-value keywords that your target audience is searching for.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>On-Page Optimization:</strong> Optimizing your website's content, meta tags, and structure for better search visibility.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Link Building:</strong> Acquiring high-quality backlinks to boost your website's authority and rankings.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Local SEO:</strong> Optimizing your online presence to attract more business from relevant local searches.</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn-primary">Get a Quote</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="./assets/seo-service.jpg" alt="SEO Services" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Marketing Service Section -->
+    <section id="social" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row-reverse items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pl-8">
+                    <div class="service-icon-large bg-green-100 text-green-600 mb-6">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold mb-4">Social Media Marketing</h2>
+                    <p class="text-lg mb-6">Engage your audience, build brand loyalty, and drive conversions through strategic social media campaigns.</p>
+                    
+                    <h3 class="text-xl font-semibold mb-3">What We Offer:</h3>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Social Media Strategy:</strong> Developing a customized strategy aligned with your business goals and target audience.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Content Creation:</strong> Creating engaging and shareable content that resonates with your audience.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Community Management:</strong> Building and nurturing an active community around your brand.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Social Media Advertising:</strong> Creating and managing targeted ad campaigns to reach your ideal customers.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Analytics & Reporting:</strong> Tracking performance and providing actionable insights to improve results.</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn-primary">Get a Quote</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="./assets/social-media-service.jpg" alt="Social Media Marketing Services" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paid Advertising Service Section -->
+    <section id="paid-ads" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <div class="service-icon-large bg-purple-100 text-purple-600 mb-6">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold mb-4">Paid Advertising</h2>
+                    <p class="text-lg mb-6">Drive immediate results with targeted Google, Facebook, Instagram, and LinkedIn ad campaigns that maximize your ROI.</p>
+                    
+                    <h3 class="text-xl font-semibold mb-3">What We Offer:</h3>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Google Ads Management:</strong> Creating and optimizing search, display, and video campaigns to reach potential customers.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Social Media Advertising:</strong> Developing targeted campaigns on Facebook, Instagram, LinkedIn, and other platforms.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Remarketing Campaigns:</strong> Re-engaging visitors who have shown interest in your products or services.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Landing Page Optimization:</strong> Creating high-converting landing pages for your ad campaigns.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span><strong>Performance Tracking:</strong> Monitoring campaign performance and making data-driven optimizations.</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn-primary">Get a Quote</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="./assets/paid-ads-service.jpg" alt="Paid Advertising Services" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Grow Your Business?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Take the first step towards digital marketing success. Schedule your free strategy call today.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="contact.html" class="btn-white">Get Started Now</a>
+                <a href="https://wa.me/1234567890" target="_blank" class="btn-outline-white">
+                    <i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-1">
+                    <h3 class="text-2xl font-bold mb-4">Growth<span class="text-green-400">Lift</span></h3>
+                    <p class="mb-4">Your partner for digital growth and online success.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-green-400 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-400 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-400 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-400 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="md:col-span-1">
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-green-400 transition-colors">Home</a></li>
+                        <li><a href="services.html" class="hover:text-green-400 transition-colors">Services</a></li>
+                        <li><a href="about.html" class="hover:text-green-400 transition-colors">Why Us</a></li>
+                        <li><a href="contact.html" class="hover:text-green-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="md:col-span-1">
+                    <h4 class="text-lg font-bold mb-4">Our Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#seo" class="hover:text-green-400 transition-colors">SEO</a></li>
+                        <li><a href="services.html#social" class="hover:text-green-400 transition-colors">Social Media Marketing</a></li>
+                        <li><a href="services.html#paid-ads" class="hover:text-green-400 transition-colors">Paid Advertising</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="md:col-span-1">
+                    <h4 class="text-lg font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>123 Marketing St, Digital City, DC 12345</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            <a href="tel:+1234567890" class="hover:text-green-400 transition-colors">+1 (234) 567-890</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <a href="mailto:info@growthlift.com" class="hover:text-green-400 transition-colors">info@growthlift.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="border-gray-700 my-8">
+            
+            <div class="text-center">
+                <p>&copy; 2023 GrowthLift. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="fixed bottom-6 right-6 bg-blue-600 text-white rounded-full p-3 shadow-lg hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

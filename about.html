@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Choose Us - GrowthLift Digital Marketing Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+    <!-- Header with Sticky Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-blue-600">Growth<span class="text-green-500">Lift</span></a>
+            
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link active">Why Us</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            
+            <!-- Mobile Navigation Toggle -->
+            <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link active">Why Us</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Why Choose GrowthLift?</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto">We're not just another digital marketing agency. We're your growth partners committed to your success.</p>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <h2 class="text-3xl font-bold mb-4">Our Story</h2>
+                    <p class="text-lg mb-6">GrowthLift was founded with a simple mission: to help businesses achieve measurable growth through effective digital marketing strategies.</p>
+                    <p class="text-lg mb-6">We understand the challenges businesses face in the digital landscape. That's why we've built a team of experts who are passionate about staying ahead of the curve and delivering results that matter.</p>
+                    <p class="text-lg">Our approach combines data-driven insights with creative strategies to help you connect with your audience, build brand loyalty, and drive conversions.</p>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="./assets/about-image.jpg" alt="GrowthLift Team" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Why Businesses Choose Us</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">We deliver more than just services. We deliver growth, results, and a partnership you can count on.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Reason 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Data-Driven Approach</h3>
+                    <p class="text-gray-600">We don't believe in guesswork. Every strategy we implement is backed by solid data and analytics to ensure maximum ROI.</p>
+                </div>
+                
+                <!-- Reason 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="text-green-600 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Expert Team</h3>
+                    <p class="text-gray-600">Our team consists of certified professionals with years of experience in digital marketing across various industries.</p>
+                </div>
+                
+                <!-- Reason 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="text-purple-600 text-4xl mb-4">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Transparent Partnership</h3>
+                    <p class="text-gray-600">We believe in building long-term relationships based on trust, transparency, and consistent results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Our Impact in Numbers</h2>
+                <p class="text-xl max-w-2xl mx-auto">We've helped businesses achieve remarkable results through our digital marketing strategies.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <!-- Stat 1 -->
+                <div>
+                    <div class="text-4xl font-bold mb-2">200+</div>
+                    <p class="text-xl">Happy Clients</p>
+                </div>
+                
+                <!-- Stat 2 -->
+                <div>
+                    <div class="text-4xl font-bold mb-2">150%</div>
+                    <p class="text-xl">Average Traffic Increase</p>
+                </div>
+                
+                <!-- Stat 3 -->
+                <div>
+                    <div class="text-4xl font-bold mb-2">300%</div>
+                    <p class="text-xl">Average ROI</p>
+                </div>
+                
+                <!-- Stat 4 -->
+                <div>
+                    <div class="text-4xl font-bold mb-2">5+</div>
+                    <p class="text-xl">Years of Excellence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Trusted by Businesses</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">We've had the privilege of working with amazing clients across various industries.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+                <div class="client-logo"><img src="./assets/client-1.png" alt="Client Logo"></div>
+                <div class="client-logo"><img src="./assets/client-2.png" alt="Client Logo"></div>
+                <div class="client-logo"><img src="./assets/client-3.png" alt="Client Logo"></div>
+                <div class="client-logo"><img src="./assets/client-4.png" alt="Client Logo"></div>
+                <div class="client-logo"><img src="./assets/client-5.png" alt="Client Logo"></div>
+                <div class="client-logo"><img src="./assets/client-6.png" alt="Client Logo"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Meet Our Team</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">The passionate experts behind GrowthLift's success stories.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="./assets/team-1.jpg" alt="Team Member" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-1">Alex Johnson</h3>
+                        <p class="text-blue-600 mb-3">Founder & CEO</p>
+                        <p class="text-gray-600 mb-4">Digital marketing strategist with over 10 years of experience helping businesses grow online.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition-colors">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition-colors">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="./assets/team-2.jpg" alt="Team Member" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-1">Samantha Lee</h3>
+                        <p class="text-blue-600 mb-3">SEO Specialist</p>
+                        <p class="text-gray-600 mb-4">SEO expert with a proven track record of improving search rankings and driving organic traffic.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition-colors">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition-colors">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="./assets/team-3.jpg" alt="Team Member" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-1">Marcus Williams</h3>
+                        <p class="text-blue-600 mb-3">Paid Ads Specialist</p>
+                        <p class="text-gray-600 mb-4">PPC expert specializing in Google Ads and social media advertising with a focus on ROI.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition-colors">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 transition-colors">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Grow Your Business?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Take the first step towards digital marketing success. Schedule your free strategy call today.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="contact.html" class="btn-white">Get Started Now</a>
+                <a href="https://wa.me/1234567890" target="_blank" class="btn-outline-white">
+                    <i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="md:col-span-1">
+                    <h3 class="text-2xl font-bold mb-4">Growth<span class="text-green-400">Lift</span></h3>
+                    <p class="mb-4">Your partner for digital growth and online success.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-green-400 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-400 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-400 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-green-400 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="md:col-span-1">
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-green-400 transition-colors">Home</a></li>
+                        <li><a href="services.html" class="hover:text-green-400 transition-colors">Services</a></li>
+                        <li><a href="about.html" class="hover:text-green-400 transition-colors">Why Us</a></li>
+                        <li><a href="contact.html" class="hover:text-green-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="md:col-span-1">
+                    <h4 class="text-lg font-bold mb-4">Our Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="services.html#seo" class="hover:text-green-400 transition-colors">SEO</a></li>
+                        <li><a href="services.html#social" class="hover:text-green-400 transition-colors">Social Media Marketing</a></li>
+                        <li><a href="services.html#paid-ads" class="hover:text-green-400 transition-colors">Paid Advertising</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="md:col-span-1">
+                    <h4 class="text-lg font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>123 Marketing St, Digital City, DC 12345</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            <a href="tel:+1234567890" class="hover:text-green-400 transition-colors">+1 (234) 567-890</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <a href="mailto:info@growthlift.com" class="hover:text-green-400 transition-colors">info@growthlift.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="border-gray-700 my-8">
+            
+            <div class="text-center">
+                <p>&copy; 2023 GrowthLift. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="fixed bottom-6 right-6 bg-blue-600 text-white rounded-full p-3 shadow-lg hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+        </svg>
+    </button>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
