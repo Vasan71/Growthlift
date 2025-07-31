@@ -1,0 +1,35 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f3f4f6"/>
+  
+  <!-- SEO Elements -->
+  <circle cx="400" cy="250" r="150" fill="#dbeafe" opacity="0.7"/>
+  
+  <!-- Magnifying Glass -->
+  <circle cx="350" cy="250" r="100" stroke="#1d4ed8" stroke-width="10" fill="white" opacity="0.8"/>
+  <line x1="425" y1="325" x2="500" y2="400" stroke="#1d4ed8" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Search Results -->
+  <rect x="200" y="100" width="400" height="40" rx="5" fill="white" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="220" y="110" width="200" height="20" rx="3" fill="#bfdbfe"/>
+  
+  <rect x="200" y="150" width="400" height="40" rx="5" fill="white" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="220" y="160" width="150" height="20" rx="3" fill="#bfdbfe"/>
+  
+  <rect x="200" y="350" width="400" height="40" rx="5" fill="white" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="220" y="360" width="180" height="20" rx="3" fill="#bfdbfe"/>
+  
+  <rect x="200" y="400" width="400" height="40" rx="5" fill="white" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="220" y="410" width="220" height="20" rx="3" fill="#bfdbfe"/>
+  
+  <!-- Keywords -->
+  <circle cx="600" cy="150" r="30" fill="#3b82f6" opacity="0.7"/>
+  <circle cx="650" cy="200" r="25" fill="#2563eb" opacity="0.7"/>
+  <circle cx="620" cy="250" r="35" fill="#1d4ed8" opacity="0.7"/>
+  <circle cx="660" cy="300" r="20" fill="#60a5fa" opacity="0.7"/>
+  
+  <!-- Text Placeholder -->
+  <text x="400" y="470" font-family="Arial" font-size="24" text-anchor="middle" fill="#1e3a8a">
+    Search Engine Optimization
+  </text>
+</svg>
