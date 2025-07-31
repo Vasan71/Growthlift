@@ -1,0 +1,43 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f3f4f6"/>
+  
+  <!-- About Elements -->
+  <circle cx="400" cy="250" r="150" fill="#dbeafe" opacity="0.7"/>
+  
+  <!-- Team Silhouettes -->
+  <circle cx="300" cy="200" r="50" fill="#1d4ed8" opacity="0.8"/>
+  <rect x="275" y="250" width="50" height="100" rx="10" fill="#1d4ed8" opacity="0.8"/>
+  
+  <circle cx="400" cy="200" r="50" fill="#2563eb" opacity="0.8"/>
+  <rect x="375" y="250" width="50" height="100" rx="10" fill="#2563eb" opacity="0.8"/>
+  
+  <circle cx="500" cy="200" r="50" fill="#3b82f6" opacity="0.8"/>
+  <rect x="475" y="250" width="50" height="100" rx="10" fill="#3b82f6" opacity="0.8"/>
+  
+  <!-- Connection Lines -->
+  <line x1="300" y1="220" x2="400" y2="220" stroke="#93c5fd" stroke-width="3"/>
+  <line x1="400" y1="220" x2="500" y2="220" stroke="#93c5fd" stroke-width="3"/>
+  
+  <!-- Growth Chart -->
+  <polyline points="100,400 200,380 300,350 400,300 500,250 600,200 700,150" 
+            stroke="#3b82f6" stroke-width="5" fill="none" stroke-dasharray="10,5"/>
+  
+  <!-- Mission Elements -->
+  <circle cx="150" cy="150" r="30" fill="#60a5fa" opacity="0.7"/>
+  <text x="150" y="155" font-family="Arial" font-size="20" text-anchor="middle" fill="white">✓</text>
+  
+  <circle cx="650" cy="150" r="30" fill="#60a5fa" opacity="0.7"/>
+  <text x="650" y="155" font-family="Arial" font-size="20" text-anchor="middle" fill="white">★</text>
+  
+  <circle cx="150" cy="350" r="30" fill="#60a5fa" opacity="0.7"/>
+  <text x="150" y="355" font-family="Arial" font-size="20" text-anchor="middle" fill="white">⚡</text>
+  
+  <circle cx="650" cy="350" r="30" fill="#60a5fa" opacity="0.7"/>
+  <text x="650" y="355" font-family="Arial" font-size="20" text-anchor="middle" fill="white">♥</text>
+  
+  <!-- Text Placeholder -->
+  <text x="400" y="470" font-family="Arial" font-size="24" text-anchor="middle" fill="#1e3a8a">
+    Our Team & Mission
+  </text>
+</svg>

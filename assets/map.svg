@@ -1,0 +1,44 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#dbeafe"/>
+  
+  <!-- Map Grid Lines -->
+  <g stroke="#93c5fd" stroke-width="1">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="700" y1="0" x2="700" y2="400"/>
+  </g>
+  
+  <!-- Roads -->
+  <g stroke="#bfdbfe" stroke-width="10">
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="200" y1="300" x2="600" y2="300"/>
+    <line x1="600" y1="50" x2="600" y2="350"/>
+  </g>
+  
+  <!-- Location Pin -->
+  <g transform="translate(400, 200)">
+    <circle cx="0" cy="0" r="20" fill="#1d4ed8"/>
+    <circle cx="0" cy="0" r="10" fill="white"/>
+    <path d="M0,0 L0,-50 A50,50 0 0,1 50,0 Z" fill="#1d4ed8" opacity="0.7"/>
+  </g>
+  
+  <!-- Text Label -->
+  <rect x="300" y="230" width="200" height="40" rx="5" fill="white"/>
+  <text x="400" y="255" font-family="Arial" font-size="14" text-anchor="middle" fill="#1e3a8a">
+    GrowthLift Office
+  </text>
+</svg>

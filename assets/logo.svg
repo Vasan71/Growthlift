@@ -1,0 +1,20 @@
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Container -->
+  <rect width="200" height="50" fill="transparent"/>
+  
+  <!-- Icon Part -->
+  <g transform="translate(0, 0)">
+    <!-- G Shape -->
+    <path d="M25,5 C15,5 7,13 7,25 C7,37 15,45 25,45 C35,45 43,37 43,25 L33,25 L33,30 L28,30 L28,20 L43,20 C42,12 34,5 25,5 Z" fill="#1d4ed8"/>
+    
+    <!-- Growth Arrow -->
+    <polyline points="28,15 35,8 42,15" stroke="#34d399" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Text Part -->
+  <g transform="translate(50, 0)">
+    <!-- GrowthLift Text -->
+    <text x="0" y="32" font-family="Arial" font-weight="bold" font-size="24" fill="#1d4ed8">Growth</text>
+    <text x="90" y="32" font-family="Arial" font-weight="bold" font-size="24" fill="#34d399">Lift</text>
+  </g>
+</svg>
